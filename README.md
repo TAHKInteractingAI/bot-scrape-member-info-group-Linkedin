@@ -20,13 +20,9 @@ pip install webdriver-manager
 ``` 
 
 ### Scrape
-Run logic code with command
+Run with command
 ```bash
 python src/scrape_profiles.py --email=enteryouremail --password=enteryourpassword --group_ids=entergroupid 
-```
-Or Run UI of Application with code
-```bash
-python src/loginHandle.py
 ```
 
 ### Common Issues
