@@ -1,4 +1,9 @@
 parsel==1.5.2
 selenium==4.8.3
 tqdm==4.42.1
+<<<<<<< HEAD
 numpy==1.24.2
+=======
+numpy==1.24.2
+PySide6
+>>>>>>> bc358eeda66562e8cfbb183804fa60a68e1e4cee
