@@ -20,17 +20,18 @@ pip install webdriver-manager
 ``` 
 
 ### Scrape
-Run with command
+Run logic code with command
 ```bash
 python src/scrape_profiles.py --email=enteryouremail --password=enteryourpassword --group_ids=entergroupid 
 ```
+Run the interface of application with command
+```bash
+python src/loginHandle.py 
+```
+Step 1: Open application and sign in your Linked Account
+Step 2: Insert id group that you want to scrape information
+Step 3: Your results will be saved in folder that you save this application, and that file name "Profiles + day_you_do_scrape".csv
 
 ### Common Issues
 Make sure you have compatible chrome driver version with installed chrome on your machine.
 Link to Driver is [https://chromedriver.chromium.org/downloads](https://chromedriver.chromium.org/downloads)
-
-
-### Known Issues:
-* Initial 20 members of groups are going to scrape (Scroll pagination is pending)
-* Generate separate file for each group
-* Add option to don't scrape already scraped profiles
